@@ -2,7 +2,7 @@ import cv2
 import numpy as np
 
 # Filtering
-originalImg = cv2.imread('lab2data/Dog.jpg')
+originalImg = cv2.imread('./lab2data/ET_1.jpg')
 
 print("Showing low pass filter image")
 kernel = np.ones((5, 5), np.float32) / 25
@@ -96,8 +96,8 @@ cv2.destroyAllWindows()
 
 
 def number_of_clusters(k_value):
-    StopCriteria = (cv2.TERM_CRITERIA_EPS + cv2.TERM_CRITERIA_MAX_ITER, 100, 0.85)
-    ret, labels, clusters = cv2.kmeans(reshapedImage, k_value, None, StopCriteria, 10, cv2.KMEANS_RANDOM_CENTERS)
+    stop_criteria = (cv2.TERM_CRITERIA_EPS + cv2.TERM_CRITERIA_MAX_ITER, 100, 0.85)
+    ret, labels, clusters = cv2.kmeans(reshapedImage, k_value, None, stop_criteria, 10, cv2.KMEANS_RANDOM_CENTERS)
     clusters = np.uint8(clusters)
     intermediate_image = clusters[labels.flatten()]
     clustered_image = intermediate_image.reshape(RgbImg.shape)

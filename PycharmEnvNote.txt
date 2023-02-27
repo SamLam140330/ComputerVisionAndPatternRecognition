@@ -1,0 +1,5 @@
+1. Settings > Tools > Terminal > Shell path:
+cmd.exe "/K" C:\Apps\Anaconda\Scripts\activate.bat lab
+
+2. Settings > Project > Python Interpreter:
+C:\Users\samlam\.conda\envs\lab\python.exe

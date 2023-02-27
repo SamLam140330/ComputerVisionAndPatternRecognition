@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebResourcesPaths">
+    <contentEntries>
+      <entry url="file://$PROJECT_DIR$">
+        <entryData>
+          <resourceRoots>
+            <path value="file://$PROJECT_DIR$/lab1/lab1data" />
+            <path value="file://$PROJECT_DIR$/lab2/lab2data" />
+            <path value="file://$PROJECT_DIR$/lab3/lab3data" />
+            <path value="file://$PROJECT_DIR$/lab4/lab4data" />
+            <path value="file://$PROJECT_DIR$/assignment1/data" />
+          </resourceRoots>
+        </entryData>
+      </entry>
+    </contentEntries>
+  </component>
+</project>
