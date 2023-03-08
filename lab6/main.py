@@ -5,13 +5,13 @@ import numpy as np
 
 
 def detect_face(img):
-    grayImg = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
+    gray_img = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
     face_cascade = cv2.CascadeClassifier('./lab6data/haarcascade_frontalface_default.xml')
-    face = face_cascade.detectMultiScale(grayImg, scaleFactor=1.2, minNeighbors=5)
+    face = face_cascade.detectMultiScale(gray_img, scaleFactor=1.2, minNeighbors=5)
     if len(face) == 0:
         return None, None
     (x, y, w, h) = face[0]
-    return grayImg[y:y + w, x:x + h], face[0]
+    return gray_img[y:y + w, x:x + h], face[0]
 
 
 def prepare_training_data(data_folder_path):
