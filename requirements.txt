@@ -1,0 +1,9 @@
+matplotlib==3.7.0
+numpy==1.24.1
+opencv-contrib-python==4.7.0.72
+opencv-python==4.7.0.68
+python-dateutil==2.8.2
+scikit-image==0.19.3
+torch==1.13.1
+torchaudio==0.13.1
+torchvision==0.14.1
