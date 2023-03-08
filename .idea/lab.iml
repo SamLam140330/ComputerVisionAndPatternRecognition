@@ -9,6 +9,7 @@
       <sourceFolder url="file://$MODULE_DIR$/assignment1" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/lab5" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/lab6" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/lab7" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/lab1/output" />
     </content>
     <orderEntry type="jdk" jdkName="lab" jdkType="Python SDK" />
