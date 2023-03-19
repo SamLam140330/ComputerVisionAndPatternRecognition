@@ -1,0 +1,2 @@
+Those images for data training and testing are only for educational purposes only
+And therefore, those images have been zipped and password protected
